@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* font-family: "Work Sans",
+sans-serif; */
+.hero {
+    background-image: linear-gradient(80deg, rgb(16, 16, 16) -60.5%, rgba(16, 16, 16, 0) 100%), url(../assets/hero-bg.png);
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+
+}
+
+.hero-container {
+    max-width: 723px;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.hero-container>h4 {
+    color: white;
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.hero-container h1 {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 34px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.hero-container p {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 18=6px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.hero-container button {
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    background: rgb(82, 195, 3);
+    /* Frame 6 */
+        position: static;
+        width: 209px;
+        height: 26px;
+        /* Auto layout */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 21px 32px 21px 32px;
+    
+
+    
+}
